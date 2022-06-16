@@ -17,3 +17,4 @@ Text Domain: foodmama
 html {
   margin: 0 !important;
 }
+.navbar-brand>img{padding: 8px 0}

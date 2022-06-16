@@ -39,3 +39,9 @@ function css_connect() {
   wp_enqueue_style('C00', get_stylesheet_uri());
   wp_enqueue_script('jquery');
 }
+
+require_once "assets/lib/opt/redux-core/framework.php";
+require_once "assets/lib/opt/sample/config.php";
+// require_once "/assets/lib/tgm/example.php";
+// require_once "/assets/lib/cmb/config.php";
+// require_once "/assets/lib/cmb/init.php";
