@@ -51,6 +51,20 @@
 </div>
 
 <a href="#" class="scrollup"></a>
+
+<script type="text/javascript">
+
+  window.addEventListener('load', () => {
+
+
+    document.querySelectorAll(".nav li").forEach( ele => ele.classList.add('dropdown'))
+    document.querySelectorAll(".nav li a").forEach( ele => ele.classList.add('dropdown-toggle'))
+    document.querySelectorAll(".nav li ul").forEach( ele => ele.classList.add('dropdown-menu'))
+
+  });
+
+</script>
+
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery.min.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/bootstrap.min.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/masterslider/jquery.easing.min.js"></script>

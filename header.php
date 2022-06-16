@@ -45,11 +45,19 @@
           <div id="navbar-collapse-1" class="navbar-collapse collapse pull-right dark-color nopadding">
             <nav>
               <ul class="nav navbar-nav">
-                <li class="dropdown"><a href="<?= get_home_url() ?>" class="dropdown-toggle">Home<i class="fa fa-angle-down"></i></a>
-                  <ul role="menu" class="dropdown-menu">
-                    <li><a href="<?= get_home_url() ?>">Bakery</a></li>
-                  </ul>
-                </li>
+
+
+                <?php
+                  wp_nav_menu([
+                    'theme_location' => 'main_menu',
+                    'container' => false,
+                    'items_wrap' => '%3$s',
+                    'menu_id' => ' ',
+                    'menu_class' => '',
+                  ])
+                ?>
+
+
               </ul>
             </nav>
             <div class="search-box no-display-phone">
@@ -57,9 +65,10 @@
                 <div class="input-group">
                   <input type="text" class="form-control" placeholder="Search here...!">
                   <span class="input-group-btn">
-                  <button type="reset" class="btn btn-default"><span class="fa fa-close"> <span class="sr-only">Close</span></span> </button>
-                  <button type="submit" class="btn btn-default"><span class="fa fa-search"> <span class="sr-only">Search here...!</span></span></button>
-                  </span></div>
+                    <button type="reset" class="btn btn-default"><span class="fa fa-close"> <span class="sr-only">Close</span></span></button>
+                    <button type="submit" class="btn btn-default"><span class="fa fa-search"> <span class="sr-only">Search here...!</span></span></button>
+                  </span>
+                </div>
               </form>
             </div>
           </div>
