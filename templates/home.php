@@ -1,35 +1,33 @@
+<?php global $my_theme ?>
+
 <?php /** Template Name: Home */ ?>
 <?php get_header() ?>
 
   <div class="master-slider ms-skin-default" id="masterslider"> 
     <div class="ms-slide slide-1" data-delay="14"> 
-      <!-- slide background --> 
-      <img src="<?php echo get_template_directory_uri() ?>/assets/images/masterslider/slide1.png" data-src="<?php echo get_template_directory_uri(); ?>/assets/images/masterslider/slide1.png" alt="slide_bg"/>
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/masterslider/slide1.png" data-src="<?php echo get_template_directory_uri(); ?>/assets/images/masterslider/slide1.png" alt="slide_mn"
-		 	  style="left:430px; top:260px;"
-		 	  class="ms-layer badge-logo"
-		 	  data-type="image"
-		 	  data-delay="1000"
-		 	  data-duration="2500"
-		 	  data-effect="top(480,false)"
-		 	  data-ease="easeOutExpo"/>     
-      <h3 class="ms-layer text1 one full-wid text-center font-white uppercase"
-			style="left:0; top:440px;"
-			data-type="text"
-			data-delay="2000"
-		 	data-duration="2000"
-		 	data-ease="easeOutExpo"
-		 	data-effect="rotate3dtop(-100,0,0,40,t)">Memorable Experience</h3>
-      <h3 class="ms-layer title2 one font-sbold font-white uppercase text-center"
-			style="left:0;top: 500px;"
-			data-type="text"
-			data-delay="2500"
-		 	data-duration="2500"
-		 	data-ease="easeOutExpo"
-		 	data-effect="rotate3dtop(-100,0,0,40,t)">With delicious food</h3>
+      <img src="<?= $my_theme['sld1']['url'] ?>" data-src="<?= $my_theme['sld1']['url'] ?>"/>
+      <img src="<?= $my_theme['sld1']['url'] ?>" data-src="<?= $my_theme['sld1']['url'] ?>" style="left:430px; top:260px;" class="ms-layer badge-logo" data-type="image" data-delay="1000" data-duration="2500" data-effect="top(480,false)" data-ease="easeOutExpo"/>
+
+      <h3 class="ms-layer text1 one full-wid text-center font-white uppercase" style="left:0; top:440px;" data-type="text" data-delay="2000" data-duration="2000" data-ease="easeOutExpo" data-effect="rotate3dtop(-100,0,0,40,t)"><?= $my_theme['tsl1'] ?></h3>
+      <h3 class="ms-layer title2 one font-sbold font-white uppercase text-center" style="left:0;top: 500px;" data-type="text" data-delay="2500" data-duration="2500" data-ease="easeOutExpo" data-effect="rotate3dtop(-100,0,0,40,t)"><?= $my_theme['ssl1'] ?></h3>
+    </div>
+
+    <div class="ms-slide slide-2" data-delay="14"> 
+      <img src="<?= $my_theme['sld2']['url'] ?>" data-src="<?= $my_theme['sld2']['url'] ?>"/>
+      <img src="<?= $my_theme['sld2']['url'] ?>" data-src="<?= $my_theme['sld2']['url'] ?>" style="left:430px; top:260px;" class="ms-layer badge-logo" data-type="image" data-delay="1000" data-duration="2500" data-effect="top(480,false)" data-ease="easeOutExpo"/>
+      
+      <h3 class="ms-layer text1 one full-wid text-center font-white uppercase" style="left:0; top:440px;" data-type="text" data-delay="2000" data-duration="2000" data-ease="easeOutExpo" data-effect="rotate3dtop(-100,0,0,40,t)"><?= $my_theme['tsl2'] ?></h3>
+      <h3 class="ms-layer title2 one font-sbold font-white uppercase text-center" style="left:0;top: 500px;" data-type="text" data-delay="2500" data-duration="2500" data-ease="easeOutExpo" data-effect="rotate3dtop(-100,0,0,40,t)"><?= $my_theme['ssl2'] ?></h3>
+    </div>
+
+    <div class="ms-slide slide-3" data-delay="14"> 
+      <img src="<?= $my_theme['sld3']['url'] ?>" data-src="<?= $my_theme['sld3']['url'] ?>"/>
+      <img src="<?= $my_theme['sld3']['url'] ?>" data-src="<?= $my_theme['sld3']['url'] ?>" style="left:430px; top:260px;" class="ms-layer badge-logo" data-type="image" data-delay="1000" data-duration="2500" data-effect="top(480,false)" data-ease="easeOutExpo"/>
+      
+      <h3 class="ms-layer text1 one full-wid text-center font-white uppercase" style="left:0; top:440px;" data-type="text" data-delay="2000" data-duration="2000" data-ease="easeOutExpo" data-effect="rotate3dtop(-100,0,0,40,t)"><?= $my_theme['tsl3'] ?></h3>
+      <h3 class="ms-layer title2 one font-sbold font-white uppercase text-center" style="left:0;top: 500px;" data-type="text" data-delay="2500" data-duration="2500" data-ease="easeOutExpo" data-effect="rotate3dtop(-100,0,0,40,t)"><?= $my_theme['ssl3'] ?></h3>
     </div>
   </div>
-  <!-- end Master Slider -->
 
   
   <div class="section-lg m-top8">
@@ -40,10 +38,11 @@
             <h4 class="font-grey-light font15 font-bold">Welcome to</h4>
             <h2 class="font-color font40 font-bold">The Butter</h2>
           </div>
-          <p class="font-grey font18 font-thin italic line-height30 text-center">Pellentesque mi purus, eleifend sedt commodo vel, sagittis elts vesti  ulum dui sagittis mlste sagittis elts. Exercitation photo booth that is end stumptown tote bag Banksy, elit small batch freegan sed craft a  beer elit seitan exercitation, photo booth et kale chips hillwave deep laborum mlste sagittis sunt culpa only oficia.<br>
-            <img src="https://placeholdit.imgix.net/~text?txtsize=80&txt=274%C3%9751&w=274&h=51" alt="" class="m-top3"> </p>
+          <p class="font-grey font18 font-thin italic line-height30 text-center">Pellentesque mi purus, eleifend sedt commodo vel, sagittis elts vesti  ulum dui sagittis mlste sagittis elts. Exercitation photo booth that is end stumptown tote bag Banksy, elit small batch freegan sed craft a  beer elit seitan exercitation, photo booth et kale chips hillwave deep laborum mlste sagittis sunt culpa only oficia.</p>
         </div>
-        <div class="col-md-6 col-sm-6"> <img src="https://placeholdit.imgix.net/~text?txtsize=60&txt=518%C3%97439&w=518&h=439" alt="" class="img-responsive"> </div>
+        <div class="col-md-6 col-sm-6">
+          <img src="<?= $my_theme['bit_banner']['url'] ?>" alt="" class="img-responsive">
+        </div>
       </div>
     </div>
   </div>
@@ -249,18 +248,19 @@
           <h2 class="font-color font40 font-bold">Our Blog</h2>
         </div>
         <div class="col-md-12 m-top3">
-
+          <?php $clnts = new WP_Query(['post_type' => 'post', 'posts_per_page' => 4]) ?>
+          <?php while ($clnts->have_posts()) : $clnts->the_post() ?>
           <div class="col-md-6 team-list nopadding">
             <div class="col-md-6 imgbox team-image nopadding">
-              <img class="img-responsive" alt="Post title" src="http://localhost/foodma/wp-content/uploads/2022/06/Screenshot_2.png">
+            <?php the_post_thumbnail() ?>
             </div>
             <div class="col-md-6 text-center">
-              <h2 class="font-black uppercase font20 m-top3"><a href="#">BREAKFAST</a></h2>
-              <p class="line-height30 m-top2">Morlem ipsum<br>Dolor sit amet vesena<br>Tomosi elitsit</p>
-              <h3 class="font-color font25 font-bold m-top2 m-bottom3">Author</h3>
+              <h2 class="font-black uppercase font20 m-top3"><a href="#"><?php the_title() ?></a></h2>
+              <p class="line-height30 m-top2"><?php the_excerpt() ?></p>
+              <a href="<?php the_permalink() ?>" class="font-color m-top2 m-bottom3"><?php the_author() ?></a>
             </div>
           </div>
-
+          <?php endwhile ?>
         </div>
       </div>
     </div>

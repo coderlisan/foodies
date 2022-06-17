@@ -251,9 +251,25 @@ Redux::setSection('my_theme', [
 	'title' => 'Slider Images',
 	'icon' => 'el el-group-alt',
 	'fields' => [
-		['title' => 'Image Link 1','type' => 'text','id' => 'sld1'],
-		['title' => 'Image Link 2','type' => 'text','id' => 'sld2'],
-		['title' => 'Image Link 3','type' => 'text','id' => 'sld3'],
-		['title' => 'Image Link 4','type' => 'text','id' => 'sld4'],
+		['title' => 'Image Link 1','type' => 'media','id' => 'sld1'],
+		['title' => 'Title 1','type' => 'text','id' => 'tsl1'],
+		['title' => 'Subtitle 1','type' => 'text','id' => 'ssl1'],
+
+		['title' => 'Image Link 2','type' => 'media','id' => 'sld2'],
+		['title' => 'Title 2','type' => 'text','id' => 'tsl2'],
+		['title' => 'Subtitle 2','type' => 'text','id' => 'ssl2'],
+
+		['title' => 'Image Link 3','type' => 'media','id' => 'sld3'],
+		['title' => 'Title 3','type' => 'text','id' => 'tsl3'],
+		['title' => 'Subtitle 3','type' => 'text','id' => 'ssl3'],
 	],
+]);
+
+Redux::setSection('my_theme', [
+	'title' => 'The Biter Banner',
+	'icon' => 'el el-globe',
+	'subsection' => true,
+	'fields' => [
+		['title' => 'Upload Banner', 'id' => 'bit_banner', 'type' => 'media']
+	]
 ]);
