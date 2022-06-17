@@ -1,4 +1,5 @@
-  
+<?php global $my_theme ?>
+
   <footer class="footer-bg m-top0">
     <div class="container">
       <div class="row">
@@ -34,17 +35,13 @@
       <div class="row text-center">
         <div class="col-md-12">
           <ul class="social-icons">
-            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-            <li><a href="#"><i class="fa fa-flickr"></i></a></li>
-            <li><a href="#"><i class="fa fa-youtube"></i></a></li>
-            <li><a href="#"><i class="fa fa-vimeo-square"></i></a></li>
-            <li><a href="#"><i class="fa fa-rss"></i></a></li>
+            <li><a href="<?= $my_theme['fb'] ?>"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="<?= $my_theme['lk'] ?>"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="<?= $my_theme['tw'] ?>"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="<?= $my_theme['yt'] ?>"><i class="fa fa-youtube"></i></a></li>
           </ul>
         </div>
-        <div class="col-md-12 m-top4"> Copyright &copy; 2016 yourdomian. All Rights Reserved. </div>
+        <div class="col-md-12 m-top4"><?= $my_theme['copyRgt'] ?></div>
       </div>
     </div>
   </div>

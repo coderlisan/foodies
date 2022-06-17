@@ -1,7 +1,7 @@
 <?php /** Template Name: Home */ ?>
 <?php get_header() ?>
 
-<div class="master-slider ms-skin-default" id="masterslider"> 
+  <div class="master-slider ms-skin-default" id="masterslider"> 
     <div class="ms-slide slide-1" data-delay="14"> 
       <!-- slide background --> 
       <img src="<?php echo get_template_directory_uri() ?>/assets/images/masterslider/slide1.png" data-src="<?php echo get_template_directory_uri(); ?>/assets/images/masterslider/slide1.png" alt="slide_bg"/>
@@ -249,46 +249,18 @@
           <h2 class="font-color font40 font-bold">Our Blog</h2>
         </div>
         <div class="col-md-12 m-top3">
+
           <div class="col-md-6 team-list nopadding">
-            <div class="col-md-6 imgbox team-image nopadding"><img class="img-responsive" alt="" src="https://placeholdit.imgix.net/~text?txtsize=80&txt=400%C3%97360&w=400&h=360"> </div>
+            <div class="col-md-6 imgbox team-image nopadding">
+              <img class="img-responsive" alt="Post title" src="http://localhost/foodma/wp-content/uploads/2022/06/Screenshot_2.png">
+            </div>
             <div class="col-md-6 text-center">
               <h2 class="font-black uppercase font20 m-top3"><a href="#">BREAKFAST</a></h2>
-              <p class="line-height30 m-top2">Morlem ipsum<br>
-                Dolor sit amet vesena<br>
-                Tomosi elitsit</p>
-              <h3 class="font-color font25 font-bold m-top2 m-bottom3">$ 9.95</h3>
+              <p class="line-height30 m-top2">Morlem ipsum<br>Dolor sit amet vesena<br>Tomosi elitsit</p>
+              <h3 class="font-color font25 font-bold m-top2 m-bottom3">Author</h3>
             </div>
           </div>
-          <div class="col-md-6 team-list nopadding">
-            <div class="col-md-6 imgbox team-image nopadding"> <img class="img-responsive" alt="" src="https://placeholdit.imgix.net/~text?txtsize=80&txt=400%C3%97360&w=400&h=360"> </div>
-            <div class="col-md-6 text-center">
-              <h2 class="font-black uppercase font20 m-top3"><a href="#">WINE FESTIVAL</a></h2>
-              <p class="line-height30 m-top2">Morlem ipsum<br>
-                Dolor sit amet vesena<br>
-                Tomosi elitsit</p>
-              <h3 class="font-color font25 font-bold m-top2 m-bottom3">$ 9.95</h3>
-            </div>
-          </div>
-          <div class="col-md-6 team-list nopadding">
-            <div class="col-md-6 text-center">
-              <h2 class="font-black uppercase font20 m-top3"><a href="#">LUNCH</a></h2>
-              <p class="line-height30 m-top2">Morlem ipsum<br>
-                Dolor sit amet vesena<br>
-                Tomosi elitsit</p>
-              <h3 class="font-color font25 font-bold m-top2 m-bottom3">$ 9.95</h3>
-            </div>
-            <div class="col-md-6 imgbox team-image nopadding"> <img class="img-responsive" alt="" src="https://placeholdit.imgix.net/~text?txtsize=80&txt=400%C3%97360&w=400&h=360"> </div>
-          </div>
-          <div class="col-md-6 team-list nopadding">
-            <div class="col-md-6 text-center">
-              <h2 class="font-black uppercase font20 m-top3"><a href="#">Dinner</a></h2>
-              <p class="line-height30 m-top2">Morlem ipsum<br>
-                Dolor sit amet vesena<br>
-                Tomosi elitsit</p>
-              <h3 class="font-color font25 font-bold m-top2 m-bottom3">$ 9.95</h3>
-            </div>
-            <div class="col-md-6 imgbox team-image nopadding"> <img class="img-responsive" alt="" src="https://placeholdit.imgix.net/~text?txtsize=80&txt=400%C3%97360&w=400&h=360"> </div>
-          </div>
+
         </div>
       </div>
     </div>

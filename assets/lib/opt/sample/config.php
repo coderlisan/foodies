@@ -241,10 +241,19 @@ Redux::setSection('my_theme', [
 	'title' => 'Social Links',
 	'icon' => 'el el-group-alt',
 	'fields' => [
-		['title' => 'Phone Number','type' => 'text','id' => 'phoneNo'],
-		['title' => 'Email','type' => 'text','id' => 'emailAd'],
-		['title' => 'Facebook','type' => 'text','id' => 'fbLink'],
-		['title' => 'Twitter','type' => 'text','id' => 'twLink'],
-		['title' => 'LinkedIn','type' => 'text','id' => 'lkLink'],
+		['title' => 'Facebook','type' => 'text','id' => 'fb'],
+		['title' => 'LinkedIn','type' => 'text','id' => 'lk'],
+		['title' => 'Twitter','type' => 'text','id' => 'tw'],
+		['title' => 'YouTube','type' => 'text','id' => 'yt'],
+	],
+]);
+Redux::setSection('my_theme', [
+	'title' => 'Slider Images',
+	'icon' => 'el el-group-alt',
+	'fields' => [
+		['title' => 'Image Link 1','type' => 'text','id' => 'sld1'],
+		['title' => 'Image Link 2','type' => 'text','id' => 'sld2'],
+		['title' => 'Image Link 3','type' => 'text','id' => 'sld3'],
+		['title' => 'Image Link 4','type' => 'text','id' => 'sld4'],
 	],
 ]);
